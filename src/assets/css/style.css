@@ -1,0 +1,165 @@
+/* *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** Css Reset  */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+/* *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** General Style  */
+
+:root {
+  /* ! *** *** *** *** *** *** *** *** *** *** Base Colors */
+  --color-primary: #fa541c;
+  --color-secondary: #032340;
+  --color-background: #ffffff;
+  --color-primaryBack: #feeee8;
+  --color-secondaryBack: #ebf5ff;
+  /* @ *** *** *** *** *** *** *** *** *** ***  Primary Color Palette*/
+  /* @ *** *** Secondary */
+  --Secondary: #032340;
+  --Secondary900: #01070d;
+  --Secondary850: #010a13;
+  --Secondary700: #021526;
+  --Secondary400: #194165;
+  --Secondary300: #2f5f8a;
+  --Secondary150: #518cc1;
+  --Secondary100: #67aae6;
+  --Secondary50: #cfe8ff;
+  --Secondary0: #ebf5ff;
+  /* @ *** *** Primary */
+  --Primary: #fa541c;
+  --Primary900: #190803;
+  --Primary850: #4b1908;
+  --Primary700: #963211;
+  --Primary600: #e14c19;
+  --Primary400: #fb7649;
+  --Primary300: #fc9877;
+  --Primary150: #fdccbb;
+  --Primary50: #feeee8;
+  /* @ *** *** *** *** *** *** *** *** *** ***  State Colors */
+  /* @ *** *** cinnabar */
+  --cinnabar800: #8a1513;
+  --cinnabar500: #e53935;
+  --cinnabar200: #faddca;
+  /* @ *** *** selective-yellow */
+  --selective-yellow800: #995700;
+  --selective-yellow500: #ffb300;
+  --selective-yellow200: #fff3bf;
+  /* @ *** *** fern */
+  --fern800: #257028;
+  --fern500: #66bb6a;
+  --fern200: #d3eddd;
+  /* @ *** *** picton-blue */
+  --picton-blue800: #0f5894;
+  --picton-blue500: #29b6f6;
+  --picton-blue200: #c7f2fc;
+  /* @ *** *** *** *** *** *** *** *** *** ***  Neutral Color Palette */
+  --neutral900: #000306;
+  --neutral800: #404040;
+  --neutral700: #606060;
+  --neutral600: #868686;
+  --neutral500: #adadad;
+  --neutral400: #cbcbcb;
+  --neutral200: #d9d9d9;
+  --neutral100: #ededed;
+  --neutral50: #f9f9f9;
+  /* ! *** *** *** *** *** *** *** *** *** ***  Spacing */
+  /* Spacing Scale */
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-56: 56px;
+  --space-64: 64px;
+  --space-72: 72px;
+  --space-80: 80px;
+  --space-88: 88px;
+  --space-96: 96px;
+  --space-104: 104px;
+  --space-124: 124px;
+
+  /* Global Margins */
+  --margin-sm: 12px;
+  --margin-md: 24px;
+  --margin-lg: 48px;
+
+  /* Global Padding */
+  --padding-sm: 12px;
+  --padding-md: 24px;
+  --padding-lg: 48px;
+
+  /* Card Spacing */
+  --card-padding-sm: 12px;
+  --card-padding-md: 24px;
+  --card-padding-lg: 32px;
+
+  --card-margin-sm: 12px;
+  --card-margin-md: 24px;
+  --card-margin-lg: 32px;
+
+  /* Section Spacing */
+  --space-between-sections: 12px;
+  --space-title-content: 6px;
+
+  /* Button Padding (Y = top/bottom, X = left/right) */
+  --button-padding-sm-y: 12px;
+  --button-padding-sm-x: 12px;
+
+  --button-padding-md-y: 16px;
+  --button-padding-md-x: 16px;
+
+  --button-padding-lg-y: 16px;
+  --button-padding-lg-x: 24px;
+
+  /* Typography Spacing */
+  --type-spacing-sm: 12px;
+  --type-spacing-md: 24px;
+  --type-spacing-lg: 32px;
+  /* ! *** *** *** *** *** *** *** *** *** ***  Typography: Website*/
+  /* Display */
+  --font-display-1: 64px;
+  --font-display-2: 24px;
+
+  /* Headers */
+  --font-h1: 32px;
+  --font-h2: 24px;
+  --font-h3: 20px;
+
+  /* Body Text */
+  --font-body-1: 20px;
+  --font-body-2: 18px;
+  --font-body-3: 16px;
+  --font-body-4: 14px;
+  --font-body-5: 13px;
+  --font-body-6: 12px;
+  --font-body-7: 10px;
+
+  /* Captions */
+  --font-caption-1: 12px;
+  --font-caption-2: 10px;
+  --font-caption-3: 9px;
+  --font-caption-4: 8px;
+
+  /* Buttons */
+  --font-button-primary-1: 18px;
+  --font-button-primary-2: 16px;
+  --font-button-primary-3: 14px;
+  --font-button-secondary-1: 14px;
+  --font-button-secondary-2: 12px;
+}
