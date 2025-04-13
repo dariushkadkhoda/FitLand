@@ -179,7 +179,7 @@ input,button{
 }
 
 /* ! *** *** *** *** *** *** *** *** *** *** container grid */
-.container {
+/* .container {
   display: grid;
   grid-template-columns: [container-start] repeat(12, minmax(min-content, 12.5rem)) [container-end];
   grid-template-rows: repeat(9, min-content);
@@ -187,11 +187,11 @@ input,button{
 
 .overall-layout {
   grid-column: container-start / container-end;
-}
+} */
 
 /* ! *** *** *** *** *** *** *** *** *** *** section para */
 .section__para {
-  padding: 4rem 14.8rem;
+  padding: 4rem 14.8rem ;
 }
 /* ! *** *** *** *** *** *** *** *** *** *** body */
 
@@ -208,17 +208,13 @@ img{
 header .header{
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding-bottom: 4rem;
-}
-.header__form{
-  /* width: 100%; */
 }
 .header__form input{
   width: 45vw;
   height: 4.8rem;
   background-color: var(--color-lightest-gray);
-  margin: 0 var(--space-124);
   border-radius: var(--radius-medium);
   -webkit-border-radius: var(--radius-medium);
   -moz-border-radius: var(--radius-medium);
@@ -233,9 +229,7 @@ header .header{
   font-weight: 300;
 }
 header .header__right{
-  width: 40rem;
   display: flex;
-  
 }
 header .header__right div{
   display: flex;
@@ -249,10 +243,10 @@ header .header__right div{
   width: 14rem;
   border-radius: var(--button-padding-sm-x);
   box-shadow:  0px 4px 6px rgba(0, 0, 0, 0.06),  0px 1px 3px rgba(0, 0, 0, 0.1);
-  -webkit-border-radius: var(--button-padding-sm-x);
-  -moz-border-radius: var(--button-padding-sm-x);
-  -ms-border-radius: var(--button-padding-sm-x);
-  -o-border-radius: var(--button-padding-sm-x);
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
   font-size: var(--font-body-4);
   font-weight: bold;
   margin-left: 2rem;
@@ -272,5 +266,26 @@ header .header__right div{
 }
 /* *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** Navbar Style  */
 header nav{
+  height: 6.4rem;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .nav{
+  background-color: var(--color-lightest-gray);
+  border-radius: var(--radius-small);
+  -webkit-border-radius: var(--radius-small);
+  -moz-border-radius: var(--radius-small);
+  -ms-border-radius: var(--radius-small);
+  -o-border-radius: var(--radius-small);
+}
+header .nav ul{
+  display: flex;
+  padding: 2rem;
+}
+header .nav ul a{
+  color: var(--color-black);
+  font-size: var(--font-body-4);
+  font-weight: bold;
+  padding: 0 2rem;
 }
